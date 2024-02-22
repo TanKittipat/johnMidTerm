@@ -27,7 +27,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test1.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test1.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "firstName").text
         self.assertEqual("First Name: johnjohn", result)
@@ -55,7 +55,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test2.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test2.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "firstName").text
         self.assertEqual("First Name: Johnj", result)
@@ -83,7 +83,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test3.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test3.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "firstName").text
         self.assertEqual("First Name: johnjo", result)
@@ -111,7 +111,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test4.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test4.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "firstName").text
         self.assertEqual("First Name: johnjohnjohnjo", result)
@@ -139,7 +139,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test5.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test5.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "firstName").text
         self.assertEqual("First Name: johnjohnjohnjoh", result)
@@ -167,7 +167,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test6.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test6.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "header").text
         self.assertEqual("Customer Detail Form", result)
@@ -196,7 +196,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test7.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test7.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "header").text
         self.assertEqual("Customer Detail Form", result)
@@ -225,7 +225,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test8.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test8.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "header").text
         self.assertEqual("Customer Detail Form", result)
@@ -254,7 +254,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test9.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test9.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "header").text
         self.assertEqual("Customer Detail Form", result)
@@ -283,7 +283,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test10.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test10.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "header").text
         self.assertEqual("Customer Detail Form", result)
@@ -311,7 +311,7 @@ class TestInput1(unittest.TestCase):
         submit = driver.find_element(By.ID, "submit")
         submit.click()
         
-        driver.save_screenshot("john_Test11.png")  # Save screenshot
+        driver.save_screenshot("resultScreenShot/john_Test11.png")  # Save screenshot
         
         result = driver.find_element(By.ID, "header").text
         self.assertEqual("Customer Detail Form", result)
